@@ -19,57 +19,48 @@ const Projects = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "Análise de Vendas",
-      description: "Dashboard interativo de desempenho comercial com análise de vendas por região, produto e período. Inclui KPIs principais e tendências.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
-      powerBiUrl: "https://app.powerbi.com/view?r=exemplo1",
-      category: "Vendas",
+      title: "RELATÓRIO GERENCIAL DO SETOR COMERCIAL",
+      description: "Painel gerencial que centraliza indicadores essenciais do setor comercial, incluindo análise de vendas, desempenho por equipe e resultados comparativos por período. Facilita o acompanhamento da performance comercial, identificação de oportunidades e tomada de decisão baseada em dados confiáveis.",
+      image: "https://github.com/paulomulato/Imagens-power-bi/raw/main/Dashboard%20Comercial.png",
+      powerBiUrl: "https://app.powerbi.com/view?r=eyJrIjoiMjE2ZTlhMTUtNDI2OC00NzcxLTgyZTUtM2RhZTc0ZDgxNDc4IiwidCI6IjE1MWU4NmE5LWMzMTUtNDVkMC05NmZlLWJjZDA4Y2M1YjYyMSJ9",
+      category: "Comercial",
       icon: <DollarSign className="w-5 h-5" />
     },
     {
       id: 2,
-      title: "Dashboard Financeiro",
-      description: "Análise financeira completa com fluxo de caixa, rentabilidade e indicadores de performance financeira em tempo real.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-      powerBiUrl: "https://app.powerbi.com/view?r=exemplo2",
-      category: "Finance",
-      icon: <BarChart3 className="w-5 h-5" />
-    },
-    {
-      id: 3,
-      title: "Análise de RH",
-      description: "Dashboard de recursos humanos com métricas de contratação, turnover, satisfação dos funcionários e análise de performance.",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop",
-      powerBiUrl: "https://app.powerbi.com/view?r=exemplo3",
-      category: "RH",
-      icon: <Users className="w-5 h-5" />
-    },
-    {
-      id: 4,
-      title: "Supply Chain Analytics",
-      description: "Análise da cadeia de suprimentos com controle de estoque, fornecedores, entregas e otimização de processos logísticos.",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop",
-      powerBiUrl: "https://app.powerbi.com/view?r=exemplo4",
-      category: "Logística",
+      title: "BASKET ANALYSIS",
+      description: "Análise detalhada das combinações de produtos adquiridos pelos clientes, identificando padrões de compra conjunta. Este relatório auxilia na criação de estratégias de venda cruzada, otimização de layout em lojas físicas, personalização de recomendações em e-commerce e desenvolvimento de campanhas promocionais focadas na maximização do ticket médio.",
+      image: "https://github.com/paulomulato/Imagens-power-bi/raw/main/Basket%20Analysis.PNG",
+      powerBiUrl: "https://app.powerbi.com/view?r=eyJrIjoiMzI5Nzk2ODItNGQ0YS00OGFlLTkxZWItN2NmMTliMGJiMTQ0IiwidCI6IjE1MWU4NmE5LWMzMTUtNDVkMC05NmZlLWJjZDA4Y2M1YjYyMSJ9&pageName=ReportSectionef15368fdda80506007d",
+      category: "Marketing",
       icon: <Package className="w-5 h-5" />
     },
     {
-      id: 5,
-      title: "Marketing Analytics",
-      description: "Dashboard de marketing digital com análise de campanhas, ROI, conversões e comportamento do cliente em múltiplos canais.",
-      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=600&h=400&fit=crop",
-      powerBiUrl: "https://app.powerbi.com/view?r=exemplo5",
-      category: "Marketing",
+      id: 3,
+      title: "COHORT ANALYSIS",
+      description: "Este dashboard permite o acompanhamento longitudinal de grupos de clientes (coortes) definidos por características temporais, como data de aquisição. A análise possibilita avaliar o comportamento, retenção e engajamento dessas coortes ao longo do tempo, fornecendo insights valiosos para aprimorar estratégias de marketing e fidelização.",
+      image: "https://github.com/paulomulato/Imagens-power-bi/raw/main/Cohort%20Analysis.png",
+      powerBiUrl: "https://app.powerbi.com/view?r=eyJrIjoiM2E2YmM0MDAtYTU5Zi00MWE0LWE0ZGEtMDI2ZWQxNzJlODc0IiwidCI6IjE1MWU4NmE5LWMzMTUtNDVkMC05NmZlLWJjZDA4Y2M1YjYyMSJ9&pageName=ReportSection537282f132260d45b987",
+      category: "Retenção",
       icon: <TrendingUp className="w-5 h-5" />
     },
     {
-      id: 6,
-      title: "Customer Analytics",
-      description: "Análise comportamental de clientes com segmentação, lifetime value, churn prediction e análise de satisfação.",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&h=400&fit=crop",
-      powerBiUrl: "https://app.powerbi.com/view?r=exemplo6",
-      category: "Customer",
-      icon: <Eye className="w-5 h-5" />
+      id: 4,
+      title: "CUSTOMER SEGMENTATION",
+      description: "Painel focado na segmentação de clientes baseado em indicadores como frequência de compra, valor monetário e tempo de inatividade. O Customer Health Score (CHS) oferece uma visão consolidada da saúde da base de clientes, possibilitando identificar contas em risco, orientar ações corretivas e maximizar o valor do ciclo de vida do cliente.",
+      image: "https://github.com/paulomulato/Imagens-power-bi/raw/main/Customer%20Segmentation.png",
+      powerBiUrl: "https://app.powerbi.com/view?r=eyJrIjoiNjVlYzVmZjYtMGQ2ZS00MTEwLWJmMzktNWViZDYyY2IwNDA5IiwidCI6IjE1MWU4NmE5LWMzMTUtNDVkMC05NmZlLWJjZDA4Y2M1YjYyMSJ9&pageName=ReportSection537282f132260d45b987",
+      category: "Segmentação",
+      icon: <Users className="w-5 h-5" />
+    },
+    {
+      id: 5,
+      title: "PARETO ANALYSIS",
+      description: "Este relatório aplica o princípio de Pareto para identificar os principais fatores que impactam os resultados do negócio. Com base na análise 80/20, é possível concentrar esforços nos poucos produtos, clientes ou atividades que geram a maior parte do faturamento ou lucro, otimizando recursos e estratégias.",
+      image: "https://github.com/paulomulato/Imagens-power-bi/raw/main/Pareto%20Analysis.PNG",
+      powerBiUrl: "https://app.powerbi.com/view?r=eyJrIjoiY2ZlNzFiM2YtODhjMC00ZDJlLWE5MmEtNjI2ODFkMGI2ODBkIiwidCI6ImJhMTRlOGIzLWQ2NjctNDMyYy04Y2E5LThjNzcyNzBkN2UzNyJ9",
+      category: "Análise",
+      icon: <BarChart3 className="w-5 h-5" />
     }
   ];
 
