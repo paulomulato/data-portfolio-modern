@@ -2,6 +2,7 @@ import React from 'react';
 import { Mail, Linkedin, User, Award, TrendingUp } from 'lucide-react';
 import { Button } from './ui/button';
 import { Card, CardContent } from './ui/card';
+import profilePhoto from '@/assets/profile-photo.webp';
 
 const About = () => {
   return (
@@ -23,7 +24,7 @@ const About = () => {
             <div className="text-center">
               <div className="w-64 h-64 mx-auto mb-6 rounded-full bg-gradient-primary overflow-hidden shadow-large">
                 <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+                  src={profilePhoto}
                   alt="Foto do perfil profissional"
                   className="w-full h-full object-cover"
                 />
