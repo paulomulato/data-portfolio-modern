@@ -69,9 +69,9 @@ const Footer = () => {
             <div>
               <h4 className="text-lg font-semibold mb-4">Contato</h4>
               <div className="space-y-2 text-white/80">
-                <p>seu.email@exemplo.com</p>
-                <p>+55 (11) 99999-9999</p>
-                <p>São Paulo, SP</p>
+                <p>culturizedata@gmail.com</p>
+                <p>+55 (11) 94298-8842</p>
+                <p>Cajamar, SP - Brasil</p>
               </div>
             </div>
           </div>
@@ -86,7 +86,7 @@ const Footer = () => {
                   variant="ghost"
                   size="icon"
                   className="text-white/80 hover:text-white hover:bg-white/10"
-                  onClick={() => window.open('mailto:seu.email@exemplo.com', '_blank')}
+                  onClick={() => window.open('mailto:culturizedata@gmail.com', '_blank')}
                 >
                   <Mail className="w-5 h-5" />
                 </Button>
@@ -94,7 +94,7 @@ const Footer = () => {
                   variant="ghost"
                   size="icon"
                   className="text-white/80 hover:text-white hover:bg-white/10"
-                  onClick={() => window.open('https://linkedin.com/in/seulinkedin', '_blank')}
+                  onClick={() => window.open('https://www.linkedin.com/in/paulomulato', '_blank')}
                 >
                   <Linkedin className="w-5 h-5" />
                 </Button>
@@ -102,7 +102,7 @@ const Footer = () => {
                   variant="ghost"
                   size="icon"
                   className="text-white/80 hover:text-white hover:bg-white/10"
-                  onClick={() => window.open('https://github.com/seugithub', '_blank')}
+                  onClick={() => window.open('https://github.com/paulomulato', '_blank')}
                 >
                   <Github className="w-5 h-5" />
                 </Button>
@@ -110,7 +110,7 @@ const Footer = () => {
                   variant="ghost"
                   size="icon"
                   className="text-white/80 hover:text-white hover:bg-white/10"
-                  onClick={() => window.open('https://instagram.com/seuinstagram', '_blank')}
+                  onClick={() => window.open('https://instagram.com/culturizedata', '_blank')}
                 >
                   <Instagram className="w-5 h-5" />
                 </Button>
@@ -130,7 +130,7 @@ const Footer = () => {
             {/* Copyright */}
             <div className="mt-8 pt-8 border-t border-white/20 text-center text-white/60">
               <p>
-                © {currentYear} Portfolio Power BI. Todos os direitos reservados.
+                © {currentYear} Paulo R. Mulato - Portfolio Power BI. Todos os direitos reservados.
               </p>
               <p className="mt-2 text-sm">
                 Desenvolvido com React, TypeScript e Tailwind CSS

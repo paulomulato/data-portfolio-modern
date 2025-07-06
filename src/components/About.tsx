@@ -30,16 +30,24 @@ const About = () => {
                 />
               </div>
               <h3 className="text-2xl font-bold text-primary mb-2">
-                Seu Nome
+                Paulo R. Mulato
               </h3>
               <p className="text-muted-foreground mb-4">
-                Analista de Dados Senior
+                Analista de Dados Senior • Cajamar, SP
               </p>
               <div className="flex justify-center space-x-4">
-                <Button variant="outline" size="icon">
+                <Button 
+                  variant="outline" 
+                  size="icon"
+                  onClick={() => window.open('mailto:culturizedata@gmail.com', '_blank')}
+                >
                   <Mail className="w-4 h-4" />
                 </Button>
-                <Button variant="outline" size="icon">
+                <Button 
+                  variant="outline" 
+                  size="icon"
+                  onClick={() => window.open('https://www.linkedin.com/in/paulomulato', '_blank')}
+                >
                   <Linkedin className="w-4 h-4" />
                 </Button>
               </div>
@@ -53,23 +61,23 @@ const About = () => {
                     Resumo Profissional
                   </h4>
                   <p className="text-muted-foreground mb-6 text-lg leading-relaxed">
-                    Com mais de 5 anos de experiência em análise de dados, especializo-me na criação de dashboards interativos e relatórios estratégicos utilizando Power BI. Minha paixão está em transformar dados complexos em visualizações claras e insights acionáveis que impulsionam a tomada de decisões empresariais.
+                    Com mais de 15 anos de experiência em análise de dados, especializo-me na criação de dashboards interativos e relatórios estratégicos utilizando Power BI. Minha paixão está em transformar dados complexos em visualizações claras e insights acionáveis que impulsionam a tomada de decisões empresariais.
                   </p>
                   
                   <div className="grid sm:grid-cols-3 gap-6">
                     <div className="text-center p-4 rounded-lg bg-gradient-secondary">
                       <User className="w-8 h-8 text-primary mx-auto mb-2" />
-                      <div className="text-2xl font-bold text-primary">50+</div>
+                      <div className="text-2xl font-bold text-primary">30+</div>
                       <div className="text-sm text-muted-foreground">Projetos</div>
                     </div>
                     <div className="text-center p-4 rounded-lg bg-gradient-secondary">
                       <Award className="w-8 h-8 text-primary mx-auto mb-2" />
-                      <div className="text-2xl font-bold text-primary">5+</div>
+                      <div className="text-2xl font-bold text-primary">15+</div>
                       <div className="text-sm text-muted-foreground">Anos Exp.</div>
                     </div>
                     <div className="text-center p-4 rounded-lg bg-gradient-secondary">
                       <TrendingUp className="w-8 h-8 text-primary mx-auto mb-2" />
-                      <div className="text-2xl font-bold text-primary">15+</div>
+                      <div className="text-2xl font-bold text-primary">10+</div>
                       <div className="text-sm text-muted-foreground">Empresas</div>
                     </div>
                   </div>
@@ -86,11 +94,11 @@ const About = () => {
                 <div className="space-y-3">
                   <div className="flex items-center justify-center space-x-3 text-muted-foreground">
                     <Mail className="w-5 h-5" />
-                    <span>seu.email@exemplo.com</span>
+                    <span>culturizedata@gmail.com</span>
                   </div>
                   <div className="flex items-center justify-center space-x-3 text-muted-foreground">
                     <Linkedin className="w-5 h-5" />
-                    <span>linkedin.com/in/seulinkedin</span>
+                    <span>linkedin.com/in/paulomulato</span>
                   </div>
                 </div>
               </CardContent>
