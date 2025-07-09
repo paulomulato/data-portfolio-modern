@@ -70,7 +70,7 @@ const Footer = () => {
               <h4 className="text-lg font-semibold mb-4">Contato</h4>
               <div className="space-y-2 text-white/80">
                 <p>culturizedata@gmail.com</p>
-                <p>+55 (11) 94298-8842</p>
+                <p>(11) 94298-8842</p>
                 <p>Cajamar, SP - Brasil</p>
               </div>
             </div>

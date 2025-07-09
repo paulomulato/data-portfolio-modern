@@ -67,17 +67,17 @@ const About = () => {
                   <div className="grid sm:grid-cols-3 gap-6">
                     <div className="text-center p-4 rounded-lg bg-gradient-secondary">
                       <User className="w-8 h-8 text-primary mx-auto mb-2" />
-                      <div className="text-2xl font-bold text-primary">30+</div>
+                      <div className="text-2xl font-bold text-primary">+30</div>
                       <div className="text-sm text-muted-foreground">Projetos</div>
                     </div>
                     <div className="text-center p-4 rounded-lg bg-gradient-secondary">
                       <Award className="w-8 h-8 text-primary mx-auto mb-2" />
-                      <div className="text-2xl font-bold text-primary">15+</div>
+                      <div className="text-2xl font-bold text-primary">+15</div>
                       <div className="text-sm text-muted-foreground">Anos Exp.</div>
                     </div>
                     <div className="text-center p-4 rounded-lg bg-gradient-secondary">
                       <TrendingUp className="w-8 h-8 text-primary mx-auto mb-2" />
-                      <div className="text-2xl font-bold text-primary">10+</div>
+                      <div className="text-2xl font-bold text-primary">+10</div>
                       <div className="text-sm text-muted-foreground">Empresas</div>
                     </div>
                   </div>
